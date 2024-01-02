@@ -1,0 +1,31 @@
+.projects{
+    background-color: #000000;
+    font-family: 'Russo One';
+    color: #42FF00;
+}
+
+.projectsBorderTop{
+    border-image: linear-gradient( #4d9f0c, #000000) 100;
+    border-top-width: 0px;
+    border-bottom-width: 50px;
+    border-style: solid;
+}
+
+.projectTitle {
+    text-align: center;
+}
+
+.lemonImg img{
+    margin-left: 12.5vw;
+    width: 75vw;
+    height: auto;
+    border: #42FF00 2px solid;
+    border-radius: 16px;
+}
+
+.projectText{
+    margin-left: 20vw;
+    height:auto;
+    width: 60vw;
+    padding-bottom: 5vh;
+}

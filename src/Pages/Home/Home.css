@@ -1,0 +1,48 @@
+
+.Home{
+    justify-content: center;
+    background-color: #000000;
+    color:#42FF00;
+    font-family: 'Russo One';;
+}
+
+.Headshot img{
+    height: auto;
+    width: 25vw;
+    border: #42FF00 2px solid;
+    border-radius: 16px;
+    margin-left:34.5vw;
+    margin-right: auto;
+}
+
+.About{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-bottom: 2vh;
+}
+
+.About h2{
+    color: #EB00FF;
+    font-weight: 300;
+}
+
+.About p{
+    font-family: 200;
+}
+
+.blink {
+    animation: blinker 1s step-start infinite;
+  }
+
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+.DividerTop{
+    border-image: linear-gradient(#000000, #4d9f0c) 100;
+    border-top-width: 0px;
+    border-bottom-width: 50px;
+    border-style: solid;
+}

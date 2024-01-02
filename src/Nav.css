@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Russo+One&display=swap');
+
+.navBar{
+    background-color: black;
+    font-family: 'Russo One';
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.NavName{
+    padding-left: 5vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.NavName h1{
+    color: #42FF00;
+}
+
+.NavName h3{
+    color: #EB00FF;
+    font-weight: 200;
+}
+
+.NavMenu{
+    padding-right: 5vw;
+    padding-top: 1.5vh;
+    justify-self: right;
+}
+
+.NavList ul{
+    background-color: none;
+    height: auto;
+    width: 35vw;
+    margin-top: 50px;
+    z-index: 7;
+    list-style: none;
+}
+
+.NavList li{
+    display: block;
+    float: left;
+    clear: left;
+}
+
+.NavList a{
+    color: #EB00FF;
+}
+
+.NavList a:hover{
+    color: #42FF00;
+}
