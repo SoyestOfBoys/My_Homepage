@@ -23,8 +23,8 @@ export default function Marketing(){
                 <Carousel.Item>
                     <img className='SlideImg' src={GenCon22} alt='Gen Con 2022' />
                     <Carousel.Caption>
-                        <h2>GenCon 2022</h2>
-                        <p></p>
+                        <h2>Gen Con 2022</h2>
+                        <p>Gen Con 2022 gallerey</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
