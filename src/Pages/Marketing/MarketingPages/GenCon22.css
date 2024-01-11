@@ -1,0 +1,63 @@
+.GC22{
+    background-color: #15011a;
+    color: #fddc70;
+}
+
+.GC22 h1{
+    text-align: center;
+}
+
+.GC22 p{
+    color: #fddc70;
+}
+
+.GC22topBorder{
+    border-image: linear-gradient(#000000, #15011a) 100;
+    border-top-width: 0px;
+    border-bottom-width: 50px;
+    border-style: solid;
+}
+
+.GC2pic{
+    display: inline-flex;
+}
+
+.GCpic1o2{
+    border: #fddc70 2.5px solid;
+    border-radius: 16px;
+    margin-left: 5vw;
+}
+
+.GCpic1o2 img{
+    border-radius: 16px;
+    width: 42.5vw
+}
+
+.GC1pic{
+    border: #fddc70 2.5px solid;
+    border-radius: 16px;
+    width: 50vw;
+    margin-left: 25vw;
+}
+
+.GC1pic img{
+    border-radius: 16px;
+    width: 50vw
+}
+
+.GCslide{
+    border: #fddc70 2.5px solid;
+    border-radius: 16px;
+    width: 75vw;
+    margin-left: 12.5vw;
+}
+
+.GCslide img{
+    border-radius: 16px;
+    width: 75vw
+}
+
+.GCslideTxt{
+    background: rgba(0 , 0, 0, 0.7);
+    border-radius: 16px;
+}
