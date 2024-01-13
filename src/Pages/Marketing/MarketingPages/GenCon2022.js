@@ -1,9 +1,11 @@
-import './GenCon22.css'
+import './GenCon22.css';
 import Carousel from 'react-bootstrap/Carousel';
 import Nav from '../../../Nav'
 import GenCon22 from '../../../pics/Marketing/Gen Con 2022/GenConCover.jpg'
+import ReactPlayer from 'react-player';
 
 export default function GC22(){
+
 
     return(
         <body className='GC22'>
@@ -118,7 +120,19 @@ export default function GC22(){
                 </Carousel>
             </div>
             <p>Our video team also put together an overview of Gen Con 2022:</p>
-            <div vlassName='GCvideo'></div>
+            <div className='GC22videoWrapper'>
+                <ReactPlayer
+                    className='GC22video'
+                    url='https://tylergoblebucket.s3.us-west-1.amazonaws.com/Gen+Con+2022/Gen+Con+2022+HIGHLIGHTS.mp4'
+                    controls={true}
+                    width='50vw'
+                    height='100%'
+                />
+            </div>
+            <div className='GC22bottomBorder' />
+            <div className='GC22footer'>
+                <button className='GC22Home'><p>To Homepage</p></button>
+            </div>
         </body>
     )
 }
