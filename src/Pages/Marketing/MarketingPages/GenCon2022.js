@@ -3,6 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Nav from '../../../Nav'
 import GenCon22 from '../../../pics/Marketing/Gen Con 2022/GenConCover.jpg'
 import ReactPlayer from 'react-player';
+import { Link } from 'react-router-dom';
 
 export default function GC22(){
 
@@ -131,7 +132,7 @@ export default function GC22(){
             </div>
             <div className='GC22bottomBorder' />
             <div className='GC22footer'>
-                <button className='GC22Home'><p>To Homepage</p></button>
+                <button className='GC22Home'><Link to='/'><p>To Homepage</p></Link></button>
             </div>
         </body>
     )

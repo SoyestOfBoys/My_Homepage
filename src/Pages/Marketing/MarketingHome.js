@@ -1,5 +1,5 @@
 import './MarketingHome.css';
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import LJ from '../../pics/Marketing/Letter Jam/LJcover.jpg';
 import PaxU from '../../pics/Marketing/PaxU 22/PaxUCover.jpg';
 import GenCon22 from '../../pics/Marketing/Gen Con 2022/GenConCover.jpg'
