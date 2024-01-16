@@ -1,7 +1,7 @@
 import './GenCon22.css';
 import Carousel from 'react-bootstrap/Carousel';
 import Nav from '../../../Nav'
-import GenCon22 from '../../../pics/Marketing/gen22/gen22cov.jpg'
+import GenCon22 from '../../../pics/marketing/gen22/gen22cov.jpg'
 import ReactPlayer from 'react-player';
 import { Link } from 'react-router-dom';
 

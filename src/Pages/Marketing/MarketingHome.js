@@ -1,8 +1,8 @@
 import './MarketingHome.css';
 import { Link } from "react-router-dom";
-import LJ from '../../pics/Marketing/letter_jam/ljcover.jpg'
-import PaxU from '../../pics/Marketing/pax22/pax22cov.jpg'
-import GenCon22 from '../../pics/Marketing/gen22/gen22cov.jpg'
+import LJ from '../../pics/marketing/letter_jam/ljcover.jpg'
+import PaxU from '../../pics/marketing/pax22/pax22cov.jpg'
+import GenCon22 from '../../pics/marketing/gen22/gen22cov.jpg'
 import Carousel from 'react-bootstrap/Carousel';
 
 export default function Marketing(){
