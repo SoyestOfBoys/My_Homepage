@@ -1,5 +1,5 @@
-import React, { useReducer } from "react";
-import { Route, Routes, BrowserRouter } from "react-router-dom";
+import React from "react";
+import { Route, Routes } from "react-router-dom";
 import Home from './Pages/Home/Home'
 import GC22 from './Pages/Marketing/MarketingPages/GenCon2022'
 
