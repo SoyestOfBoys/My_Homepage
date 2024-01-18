@@ -41,3 +41,18 @@
     color: #c7fd70;
 }
 
+.GC2pic{
+    display: inline-flex;
+}
+
+.GCpic1o2{
+    border: #fddc70 2.5px solid;
+    border-radius: 16px;
+    margin-left: 5vw;
+}
+
+.GCpic1o2 img{
+    border-radius: 16px;
+    width: 42.5vw
+}
+
