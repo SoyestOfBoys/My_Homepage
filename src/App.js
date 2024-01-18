@@ -10,7 +10,6 @@ function App() {
   return (
     <div>
     <React.Fragment>
-      <Nav />
       <Home />
       <Project />
       <Marketing/>

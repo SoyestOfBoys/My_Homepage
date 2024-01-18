@@ -24,7 +24,7 @@ export default function Marketing(){
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <Link to='/Gen_Con_2022'>
+                    <Link to='/GenCon22'>
                     <img className='SlideImg' src={GenCon22} alt='Gen Con 2022' />
                     <Carousel.Caption>
                     <div className='SlideTB'>
