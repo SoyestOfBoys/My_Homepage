@@ -1,4 +1,4 @@
-import './GenCon22.css';
+
 import Carousel from 'react-bootstrap/Carousel';
 import Nav from '../../../Nav'
 import GenCon22 from '../../../pics/gen22cov.jpg'
