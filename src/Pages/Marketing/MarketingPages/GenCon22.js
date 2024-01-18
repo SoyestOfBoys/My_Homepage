@@ -6,6 +6,9 @@ export default function GenCon22(){
         <body className='GC22'>
             <div className='GC22topBorder' />
             <h1>Gen Con 2022</h1>
+            <p>Gen Con 2022 was a unique one because we did not have a major release at the convention to build our marketing around. The only new product we had to sell was the <a href='https://czechgames.com/en/galaxy-trucker-keep-on-trucking/' rel='noreferrer'> Galaxy Trucker: Keep on Trucking expansion</ a>. However, due to one of the other co-sponsors dropping out, this year we were one of only two major sponsors of the show, leading to us having a bigger exhibit room and more locations available to us for advertising.</p>
+            <p>As we didn't have a big release, I made the call to focus our convention on increasing our name recognition. Many people know games like Codenames, Lost Ruins of Arnak, and Galaxy Trucker; but not nearly as many knew that CGE were the people behind many of their favorite games.</p>
+            <p>My first step for this was securing a new advertising location for us with 3 large banners right by the main entrance and behind the very popular "Cardhalla" atraction:</p>
         </body>
     )
 }

@@ -19,3 +19,25 @@
     -webkit-text-stroke-color: #fddc70;
     -webkit-text-stroke-width: 3px;
 }
+
+.GC22 p{
+    font-size: 18px;
+    color: #fddc70;
+    margin-left: 15vw;
+    margin-right:15vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.GC22 a{
+    color:#fff1c4
+}
+
+.GC22 a:visited{
+    color: #fd9870;
+}
+
+.GC22 a:hover{
+    color: #c7fd70;
+}
+
