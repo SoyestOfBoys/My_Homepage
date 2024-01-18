@@ -1,0 +1,119 @@
+.GC22{
+    background-color: #15011a;
+    color: #fddc70;
+}
+
+.GC22 h1{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    text-align: center;
+    color:#000000;
+    -webkit-text-stroke-color: #fddc70;
+    -webkit-text-stroke-width: 3px;
+}
+
+.GC22 p{
+    font-size: 18px;
+    color: #fddc70;
+    margin-left: 15vw;
+    margin-right:15vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.GC22topBorder{
+    border-image: linear-gradient(#000000, #15011a) 100;
+    border-top-width: 0px;
+    border-bottom-width: 50px;
+    border-style: solid;
+}
+
+.GC2pic{
+    display: inline-flex;
+}
+
+.GCpic1o2{
+    border: #fddc70 2.5px solid;
+    border-radius: 16px;
+    margin-left: 5vw;
+}
+
+.GCpic1o2 img{
+    border-radius: 16px;
+    width: 42.5vw
+}
+
+.GC1pic{
+    border: #fddc70 2.5px solid;
+    border-radius: 16px;
+    width: 50vw;
+    margin-left: 25vw;
+}
+
+.GC1pic img{
+    border-radius: 16px;
+    width: 50vw
+}
+
+.GCslide{
+    border: #fddc70 2.5px solid;
+    border-radius: 16px;
+    width: 50vw;
+    margin-left: 25vw;
+}
+
+.GCslide img{
+    border-radius: 16px;
+    width: 50vw
+}
+
+.GCslideTxt{
+    background: rgba(0 , 0, 0, 0.7);
+    border-radius: 16px;
+}
+
+.GCslideTxt p{
+    margin: 3px;
+}
+
+.GC22videoWrapper{
+    width: 50.3vw;
+    margin-left: 25vw;
+    border: #fddc70 2.5px solid;
+    margin-bottom: 2.5vh;
+}
+
+.GC22bottomBorder{
+    border-image: linear-gradient(#15011a,  #fddc70) 100;
+    border-top-width: 0px;
+    border-bottom-width: 50px;
+    border-style: solid;
+}
+
+.GC22footer{
+    background-color: #fddc70;
+    text-align: center;
+}
+
+.GC22Home{
+    background-color: #cfcece;
+    border: #000000 2px solid;
+    border-radius: 12px;
+    margin-top: 1.5vh;
+    margin-bottom: 3vh;
+}
+
+.GC22Home p{
+    margin: 3px;
+    color: #000000;
+    font-size: 22px;
+}
+
+.GC22Home:hover{
+    background-color: #15011a;
+}
+
+.GC22Home p:hover{
+    color: #fddc70;
+}
