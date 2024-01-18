@@ -24,13 +24,14 @@ export default function Marketing(){
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
+                    <Link to='/Gen_Con_2022'>
                     <img className='SlideImg' src={GenCon22} alt='Gen Con 2022' />
                     <Carousel.Caption>
                     <div className='SlideTB'>
                         <h2>GenCon 2022</h2>
                         <p></p>
                     </ div>
-                    </Carousel.Caption>
+                    </Carousel.Caption></Link>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img className='SlideImg' src={LJ} alt='Letter Jam' />
