@@ -1,0 +1,21 @@
+.GC22{
+    background-color: #15011a;
+    color: #fddc70;
+}
+
+.GC22topBorder{
+    border-image: linear-gradient(#000000, #15011a) 100;
+    border-top-width: 0px;
+    border-bottom-width: 50px;
+    border-style: solid;
+}
+
+.GC22 h1{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    text-align: center;
+    color:#000000;
+    -webkit-text-stroke-color: #fddc70;
+    -webkit-text-stroke-width: 3px;
+}

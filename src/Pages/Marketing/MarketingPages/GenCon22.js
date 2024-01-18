@@ -1,10 +1,11 @@
-import Nav from "../../../Nav"
+import './GenCon22.css'
 
 export default function GenCon22(){
 
     return(
-        <div>
-            <p>TEST</p>
-        </div>
+        <body className='GC22'>
+            <div className='GC22topBorder' />
+            <h1>Gen Con 2022</h1>
+        </body>
     )
 }
