@@ -1,8 +1,7 @@
 import './MarketingHome.css';
-import { Link } from "react-router-dom";
-import LJ from '../../pics/marketing/letter_jam/ljcover.jpg'
-import PaxU from '../../pics/marketing/pax22/pax22cov.jpg'
-import GenCon22 from '../../pics/marketing/gen22/gen22cov.jpg'
+import LJ from '../../pics/Marketing/Letter Jam/LJcover.JPEG';
+import PaxU from '../../pics/Marketing/PaxU 22/PaxUCover.jpg';
+import GenCon22 from '../../pics/Marketing/Gen Con 2022/GenConCover.jpg'
 import Carousel from 'react-bootstrap/Carousel';
 
 export default function Marketing(){
@@ -24,14 +23,13 @@ export default function Marketing(){
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <Link to='/GC22'>
                     <img className='SlideImg' src={GenCon22} alt='Gen Con 2022' />
                     <Carousel.Caption>
                     <div className='SlideTB'>
                         <h2>GenCon 2022</h2>
                         <p></p>
                     </ div>
-                    </Carousel.Caption></Link>
+                    </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img className='SlideImg' src={LJ} alt='Letter Jam' />

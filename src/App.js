@@ -1,17 +1,21 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { ChakraProvider } from '@chakra-ui/react';
 import React from 'react'
-import Main from './Main';
-
+import Nav from './Nav';
+import Home from './Pages/Home/Home'
+import Project from './Pages/Projects/Project';
+import Marketing from './Pages/Marketing/MarketingHome';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <ChakraProvider>
+    <div>
     <React.Fragment>
-      <Main />
+      <Nav />
+      <Home />
+      <Project />
+      <Marketing/>
     </React.Fragment>
-    </ChakraProvider>
+    </div>
   );
 }
 
