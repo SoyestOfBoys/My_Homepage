@@ -27,6 +27,15 @@ export default function GenCon22(){
             <div className="GC1pic">
                 <img src='https://tylergoblebucket.s3.us-west-1.amazonaws.com/Gen+Con+2022/ARgcBag+1.png' alt='Scavenger hunt 2022 bags' />
             </div>
+            <p>We also focused on our two upcoming big-box releases "Starship Captains" and "Deal With the Devil". I trained our demo staff to run previews for both titles which recieved a warm reception at the show, including Deal With the Devil winning the Gaming Trend 'Best of Show' award. </p>
+            <div className="GC2pic">
+                <div className='GCpic1o2' >
+                    <img src='https://tylergoblebucket.s3.us-west-1.amazonaws.com/Gen+Con+2022/DWD+and+award.png' alt='Deal With the Devil and award' />
+                </ div>
+                <div className='GCpic1o2' >
+                    <img src='https://tylergoblebucket.s3.us-west-1.amazonaws.com/Gen+Con+2022/SC+in+media+room.png' alt='Starship Captains being shown in our media room.' />
+                </ div>
+            </ div>
         </body>
     )
 }
