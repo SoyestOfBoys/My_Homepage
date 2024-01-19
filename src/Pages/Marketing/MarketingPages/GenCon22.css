@@ -90,3 +90,16 @@
     margin: 3px;
 }
 
+.GC22videoWrapper{
+    width: 50.3vw;
+    margin-left: 25vw;
+    border: #fddc70 2.5px solid;
+    margin-bottom: 2.5vh;
+}
+
+.GC22bottomBorder{
+    border-image: linear-gradient(#15011a,  #fddc70) 100;
+    border-top-width: 0px;
+    border-bottom-width: 50px;
+    border-style: solid;
+}

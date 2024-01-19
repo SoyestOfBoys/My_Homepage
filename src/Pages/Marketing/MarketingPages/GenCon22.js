@@ -126,6 +126,7 @@ export default function GenCon22(){
                     height='100%'
                 />
             </div>
+            <div className='GC22bottomBorder' />
         </body>
     )
 }
