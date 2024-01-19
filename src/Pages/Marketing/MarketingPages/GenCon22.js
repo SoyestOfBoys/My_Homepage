@@ -23,6 +23,10 @@ export default function GenCon22(){
             <div className="GC1pic">
                 <img src={gen22cov} alt='The Jumbotron at the Luc' />
             </ div>
+            <p>The final new initiative we ran was a scanvenger hunt, were attendees could find clues hidden around the convention to help them solve puzzels in a web app with the chance to win games once completed. At registration every attendee receives a bag to put games and swag in, and we used these to advertise the hunt:</p>
+            <div className="GC1pic">
+                <img src='https://tylergoblebucket.s3.us-west-1.amazonaws.com/Gen+Con+2022/ARgcBag+1.png' alt='Scavenger hunt 2022 bags' />
+            </div>
         </body>
     )
 }
