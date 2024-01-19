@@ -119,9 +119,6 @@ export default function GenCon22(){
             <p>Our video team also put together an overview of Gen Con 2022:</p>
                 <ReactPlayer
                     url='https://tylergoblebucket.s3.us-west-1.amazonaws.com/Gen+Con+2022/Gen+Con+2022+HIGHLIGHTS.mp4'
-                    controls={true}
-                    width='50vw'
-                    height='100%'
                 />
         </body>
     )
