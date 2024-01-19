@@ -36,6 +36,15 @@ export default function GenCon22(){
                     <img src='https://tylergoblebucket.s3.us-west-1.amazonaws.com/Gen+Con+2022/SC+in+media+room.png' alt='Starship Captains being shown in our media room.' />
                 </ div>
             </ div>
+            <p>Along side these efforts we featured an improved Giant Galaxy Trucker to promote the expansion, as well as improvements to Giant Pictomania to further my Giant Games project I introduced the prior year</p>
+            <div className="GC2pic">
+                <div className='GCpic1o2' >
+                    <img src='https://tylergoblebucket.s3.us-west-1.amazonaws.com/Gen+Con+2022/Giant+GT+die+roll.png' alt='Giant GT' />
+                </ div>
+                <div className='GCpic1o2' >
+                    <img src='https://tylergoblebucket.s3.us-west-1.amazonaws.com/Gen+Con+2022/Giant+PM+reveal.png' alt='Giant PM' />
+                </ div>
+            </div>
         </body>
     )
 }
