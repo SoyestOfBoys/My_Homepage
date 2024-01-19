@@ -84,6 +84,28 @@
 .GCslideTxt{
     background: rgba(0 , 0, 0, 0.7);
     border-radius: 16px;
+    height: 90px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.GCslideTxt::-webkit-scrollbar{
+    width: 10px;
+}
+
+.GCslideTxt::-webkit-scrollbar-track {
+    background: rgba(0 , 0, 0, 0.7);
+    border-radius: 16px;
+}
+
+.GCslideTxt::-webkit-scrollbar-thumb {
+    background: rgba(253, 220, 112, 0.7);
+    border-radius: 16px;
+}
+
+.GCslideTxt::-webkit-scrollbar-thumb:hover {
+    background: rgba(253, 152, 112, 0.7);
 }
 
 .GCslideTxt p{
@@ -91,7 +113,7 @@
 }
 
 .GC22videoWrapper{
-    width: 50.3vw;
+    width: fit-content;
     margin-left: 25vw;
     border: #fddc70 2.5px solid;
     margin-bottom: 2.5vh;
