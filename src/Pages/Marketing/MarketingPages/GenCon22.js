@@ -1,5 +1,6 @@
 import './GenCon22.css'
 import gen22cov from '../../../pics/gen22cov.jpg'
+import Carousel from 'react-bootstrap/Carousel';
 
 export default function GenCon22(){
 
@@ -44,6 +45,75 @@ export default function GenCon22(){
                 <div className='GCpic1o2' >
                     <img src='https://tylergoblebucket.s3.us-west-1.amazonaws.com/Gen+Con+2022/Giant+PM+reveal.png' alt='Giant PM' />
                 </ div>
+            </div>
+            <p>We also ran site book and coupon book adds, ran an extensive demo room, and had other advertising around the show. You can see more highlights in the slideshow below:</p>
+            <div className='GCslide'>
+                <Carousel>
+                    <Carousel.Item>
+                        <img src='https://tylergoblebucket.s3.us-west-1.amazonaws.com/Gen+Con+2022/CGE+media+room+2.png' alt='Starship Captains in our media room' />
+                        <Carousel.Caption>
+                            <div className='GCslideTxt'>
+                                <p>In 2021 we brought on 2 full time content creators to help expand our reach in the Board Game media space. To accomodate this I created a media space inside our exhibit room, which was very well recived.</p>
+                            </div>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src='https://tylergoblebucket.s3.us-west-1.amazonaws.com/Gen+Con+2022/Demo+Room.png' alt='Gen Con 2022 demo room' />
+                        <Carousel.Caption>
+                        <div className='GCslideTxt'>
+                            <p>A look at the crowd enjoying our demo room. We had over 50 tables running and accomodated thousands of guests over the weekend, bringing large numbers into our room to push sales.</p>
+                        </div>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src='https://tylergoblebucket.s3.us-west-1.amazonaws.com/Gen+Con+2022/GiantGT1+1.png' alt='Giant Galaxy Trucker' />
+                        <Carousel.Caption>
+                        <div className='GCslideTxt'>
+                            <p>Here's another look at Giant Galaxy Trucker. The giant games initiative is among my favorite projects I spearheaded at CGE. They are great show-stoppers that bring large crowds, and served to increase intrest in product from both those playing the giant versions and the people watching. </p>
+                        </div>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src='https://tylergoblebucket.s3.us-west-1.amazonaws.com/Gen+Con+2022/GTtealPin+1.png' alt='Gen Con 2022 pin design document' />
+                        <Carousel.Caption>
+                        <div className='GCslideTxt'>
+                            <p>Every year we put out a new collectable pin for Gen Con. These pins have three benefits: they are a high profit item when sold on it's own, they offer a compelling promotional item that we gave free with high dollar purcheses, and they bring in pin collectors who may not normally be interested in our games. This is the final design document. I designed this pin based on existing artwork for Galaxy Trucker: Keep on Trucking, which was then polished to meet needed specs by our partner at Foam Brain. </p>
+                        </div>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src='https://tylergoblebucket.s3.us-west-1.amazonaws.com/Gen+Con+2022/Coupon+GC22+1.png' alt='Gen Con 2022 Coupon' />
+                        <Carousel.Caption>
+                            <div className='GCslideTxt'>
+                                <p>Our add from the coupon book offering a free pin with a $50 spend. These coupons are very popular and both lead people to our room and increase their spend.</p>
+                            </div>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src='https://tylergoblebucket.s3.us-west-1.amazonaws.com/Gen+Con+2022/GC2022site+book+1.png' alt='Gen Con 22 site book ad' />
+                        <Carousel.Caption>
+                            <div className='GCslideTxt'>
+                                <p>The site book ad from Gen Con 2022. We split our focus here between our new release at the show in Galaxy Trucker: Keep on Trucking and our hottest title Lost Ruins of Arnak and its expansion. We also made mention of the scavenger hunt we ran at the show.</p>
+                            </div>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src='https://tylergoblebucket.s3.us-west-1.amazonaws.com/Gen+Con+2022/GC22+big+banner+1.png' alt='Big banner at Gen Con 2022' />
+                    <Carousel.Caption>
+                            <div className='GCslideTxt'>
+                                <p>This was our large banner outside of the main hall at Gen Con. This was another attempt to build brand recognition by featuring many of our top games in the same ad.</p>
+                            </div>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src='https://tylergoblebucket.s3.us-west-1.amazonaws.com/Gen+Con+2022/GenCon+row+markers.png' alt='Banners in main hall' />
+                        <Carousel.Caption>
+                            <div className='GCslideTxt'>
+                                <p>As cosponsors of the show, we had our logo on alternating rows in the main hall.</p>
+                            </ div>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                </Carousel>
             </div>
         </body>
     )
