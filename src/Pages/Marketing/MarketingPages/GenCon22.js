@@ -117,15 +117,12 @@ export default function GenCon22(){
                 </Carousel>
             </div>
             <p>Our video team also put together an overview of Gen Con 2022:</p>
-            <div className='GC22videoWrapper'>
                 <ReactPlayer
-                    className='GC22video'
                     url='https://tylergoblebucket.s3.us-west-1.amazonaws.com/Gen+Con+2022/Gen+Con+2022+HIGHLIGHTS.mp4'
                     controls={true}
                     width='50vw'
                     height='100%'
                 />
-            </div>
         </body>
     )
 }
