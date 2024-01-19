@@ -1,7 +1,6 @@
 import './GenCon22.css'
 import gen22cov from '../../../pics/gen22cov.jpg'
 import Carousel from 'react-bootstrap/Carousel';
-import ReactPlayer from 'react-player';
 
 export default function GenCon22(){
 
