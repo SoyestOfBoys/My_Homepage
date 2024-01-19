@@ -1,4 +1,5 @@
 import './GenCon22.css'
+import gen22cov from '../../../pics/gen22cov.jpg'
 
 export default function GenCon22(){
 
@@ -17,6 +18,11 @@ export default function GenCon22(){
                     <img src='https://tylergoblebucket.s3.us-west-1.amazonaws.com/Gen+Con+2022/Cardhalla+with+banners+1.png' alt='Cardhalla with CGE banners. Credit to @role_dice on Twitter' />
                 </div>
             </div>
+            <p>These banners featured 3 of CGE's most popular titles help build the connection between them in people's mind and increase brand awareness of CGE. </p>
+            <p>Gen Con also makes use of the field of Lucas Oil Stadium. I worked with Gen Con to open up the Jumbo-Tron for exhibitors to use for advertising:</p>
+            <div className="GC1pic">
+                <img src={gen22cov} alt='The Jumbotron at the Luc' />
+            </ div>
         </body>
     )
 }

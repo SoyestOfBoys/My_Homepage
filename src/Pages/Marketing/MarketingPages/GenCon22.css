@@ -56,3 +56,14 @@
     width: 42.5vw
 }
 
+.GC1pic{
+    border: #fddc70 2.5px solid;
+    border-radius: 16px;
+    width: fit-content;
+    margin-left: 25vw;
+}
+
+.GC1pic img{
+    border-radius: 16px;
+    width: 50vw
+}
