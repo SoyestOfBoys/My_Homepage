@@ -67,3 +67,25 @@
     border-radius: 16px;
     width: 50vw
 }
+
+.GCslide{
+    border: #fddc70 2.5px solid;
+    border-radius: 16px;
+    max-width: 50.2vw;
+    width: fit-content;
+    margin-left: 25vw;
+}
+
+.GCslide img{
+    border-radius: 16px;
+    width: 50vw
+}
+
+.GCslideTxt{
+    background: rgba(0 , 0, 0, 0.7);
+    border-radius: 16px;
+}
+
+.GCslideTxt p{
+    margin: 3px;
+}

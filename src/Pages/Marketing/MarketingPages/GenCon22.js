@@ -48,7 +48,7 @@ export default function GenCon22(){
             </div>
             <p>We also ran site book and coupon book adds, ran an extensive demo room, and had other advertising around the show. You can see more highlights in the slideshow below:</p>
             <div className='GCslide'>
-                <Carousel>
+                <Carousel fade>
                     <Carousel.Item>
                         <img src='https://tylergoblebucket.s3.us-west-1.amazonaws.com/Gen+Con+2022/CGE+media+room+2.png' alt='Starship Captains in our media room' />
                         <Carousel.Caption>
