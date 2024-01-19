@@ -1,6 +1,7 @@
 import './GenCon22.css'
 import gen22cov from '../../../pics/gen22cov.jpg'
 import Carousel from 'react-bootstrap/Carousel';
+import ReactPlayer from 'react-player';
 
 export default function GenCon22(){
 
@@ -114,6 +115,16 @@ export default function GenCon22(){
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
+            </div>
+            <p>Our video team also put together an overview of Gen Con 2022:</p>
+            <div className='GC22videoWrapper'>
+                <ReactPlayer
+                    className='GC22video'
+                    url='https://tylergoblebucket.s3.us-west-1.amazonaws.com/Gen+Con+2022/Gen+Con+2022+HIGHLIGHTS.mp4'
+                    controls={true}
+                    width='50vw'
+                    height='100%'
+                />
             </div>
         </body>
     )
